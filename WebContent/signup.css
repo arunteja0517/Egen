@@ -1,0 +1,127 @@
+h1{color:grey;
+font-style:italic;}
+.form{
+    background:#f1f1f1; width:470px; margin:0 auto; padding-left:50px; padding-top:20px;
+    background-image:url(http://www.thephoblographer.com/wp-content/uploads/2015/07/Chris-Gampat-The-Phoblographer-Fujifilm-Xt10-review-final-product-images-4-of-4ISO-2001-180-sec-at-f-2.0-680x453.jpg);
+    border-radius:35px;
+  
+}
+
+.form fieldset{border:0px; padding:0px; margin:0px;}
+
+.form p.contact { font-size: 12px; margin:0px 0px 10px 0;line-height: 14px; font-family:Arial, Helvetica;}
+.form input[type="text"] { width: 400px; }
+.form input[type="email"] { width: 400px; }
+.forminput[type="password"] { width: 400px; }
+.form input.birthday{width:60px;}
+.form input.birthyear{width:120px;}
+.form label { color: #000; font-weight:bold;font-size: 12px;font-family:Arial, Helvetica; }
+.form label.month {width: 135px;}
+.form input, textarea { background-color: rgba(255, 255, 255, 0.4); border: 1px solid rgba(122, 192, 0, 0.15); padding: 7px; font-family: Keffeesatz, Arial; color: #4b4b4b; font-size: 14px; -webkit-border-radius: 5px; margin-bottom: 15px; margin-top: -10px; }
+.form input:focus, textarea:focus { border: 1px solid #ff5400; background-color: rgba(255, 255, 255, 1); }
+.form .select-style {  
+  background-position: center right;
+  background-repeat: no-repeat;
+  border: 0px solid #FFF;
+  color: #555;
+  font-size: inherit;
+  margin: 0;
+  overflow: hidden;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-overflow: ellipsis;
+
+  white-space: nowrap;}
+
+.form .gender {
+
+  width:410px;
+
+  }
+
+.btn{ 
+	background: #4b8df9; 
+	display: inline-block; 
+	padding: 15px 40px 6px; 
+	color: #fbf7f7;
+	 text-decoration: none;
+	  font-weight: bold;
+	   line-height: 1; -
+	   moz-border-radius: 50px;
+	    -webkit-border-radius: 5px;
+	     border-radius: 50px;
+	      -moz-box-shadow: 0 1px 3px #999; 
+	      -webkit-box-shadow: 0 1px 3px #999;
+	       box-shadow: 0 1px 3px #999; 
+	       text-shadow: 0 2px 3px #222;
+	        border: none; 
+	        position: relative;
+	         cursor: pointer;
+	          font-size: 14px; 
+	          font-family:Verdana, Geneva, sans-serif;}
+
+.form input.buttom:hover    { background-color: #2a78f6; }
+.cancelbtn{
+  background:red;
+  border-radius:50px
+}
+
+.round-button {
+
+	width:15%;
+}
+.round-button-circle {
+	width: 20%;
+	height:0;
+	padding-bottom: 20%;
+    border-radius: 50%;
+	border:10px solid #cfdcec;
+    overflow:hidden;
+    
+    background: #4679BD; 
+    box-shadow: 0 0 3px gray;
+}
+.round-button-circle:hover {
+	background:#30588e;
+}
+.round-button a {
+    display:block;
+	float:left;
+	width:100%;
+	padding-top:50%;
+    padding-bottom:50%;
+	line-height:1em;
+	margin-top:-0.5em;
+    
+	text-align:center;
+	color:#e2eaf3;
+    font-family:Verdana;
+    font-size:0.8em;
+    font-weight:bold;
+    text-decoration:none;
+}
+body{
+  background-image:url(https://iso.500px.com/wp-content/uploads/2014/12/blackandwhite.jpg);
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    }
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    padding: 8px;
+    background-color: black;
+    color: white;
+}
+div {
+  border: 10px;
+  padding:10px;
+}

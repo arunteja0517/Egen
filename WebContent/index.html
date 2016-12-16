@@ -1,0 +1,62 @@
+<!doctype html>
+
+<head>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body> 
+<script>
+
+function run(interval, frames) {
+    var int = 1;
+    
+    function func() {
+        document.body.id = "b"+int;
+        int++;
+        if(int === frames) { int = 1; }
+    }
+    
+    var swap = window.setInterval(func, interval);
+}
+
+run(3500, 8);
+</script>
+    </span>
+  <div id="wrapper"></div>
+  <header>
+    <h1>AR Photography</h1>
+
+    <ul>
+
+      <li><a rel="external" href="Gallery.html">Gallery</a></li>
+      <li><a rel="external" href="Contact.html">Contact us</a></li>
+      <li><a rel="external" href="SignIn.html">SignIn</a></li>
+      <li><a rel="external" href="signup.html">Register</a></li>
+
+    </ul>
+  </header>
+  </div>
+  <div id="core" class="clearfix" style="display:flex" "margin:100%">
+    <section>
+      <p>1. Never do photography to become a rock-star.
+        <br> 2. Enjoy what you are shooting.
+        <br> 3. Prepare well for your shooting, realizing that your battery isn’t charge when you’re setting up for that sunrise shoot is too late!
+        <br> 4. Always take one warm garment more than you actually need with you
+        <br> 5. Pay attention to your thoughts and emotions while you are shooting
+        <br> 6. Set goals you can achieve
+        <br> 7. Write tips about photography, because writing is also learning
+        <br> 8. Never go shooting without a tripod
+        <br> 9. Be pleased with the little successes
+        <br> 10. Build relationships with potential photo buddies!
+        <br> </p>
+    </section>
+  </div>
+  <footer>
+    <p>Some copyright and legal notices here. Maybe use the © symbol a bit.</p>
+  </footer>
+  </div>
+
+</body>
+
+</html>

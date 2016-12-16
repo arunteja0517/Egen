@@ -1,0 +1,101 @@
+@CHARSET "ISO-8859-1";
+h1{ color:grey;
+}
+form {
+    border: 3px solid #f1f1f1;
+    border-radius:25px;
+}
+
+input[type=text], input[type=password] {
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: auto;
+}
+
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: blue;
+}
+
+.container {
+    padding: 16px;
+}
+.round-button {
+
+	width:15%;
+}
+.round-button-circle {
+	width: 20%;
+	height:0;
+	padding-bottom: 20%;
+    border-radius: 50%;
+	border:10px solid #cfdcec;
+    overflow:hidden;
+    
+    background: #4679BD; 
+    box-shadow: 0 0 3px gray;
+}
+.round-button-circle:hover {
+	background:#30588e;
+}
+.round-button a {
+    display:block;
+	float:left;
+	width:100%;
+	padding-top:50%;
+    padding-bottom:50%;
+	line-height:1em;
+	margin-top:-0.5em;
+    
+	text-align:center;
+	color:#e2eaf3;
+    font-family:Verdana;
+    font-size:0.8em;
+    font-weight:bold;
+    text-decoration:none;
+}
+body{
+  background-image:url(https://iso.500px.com/wp-content/uploads/2014/12/blackandwhite.jpg);
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    }
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    padding: 8px;
+    background-color: black;
+    color: white;
+}
+div {
+  border: 10px;
+  padding:10px;
+}
+.logoutLblPos{
+
+   position:fixed;
+   right:10px;
+   top:5px;
+}

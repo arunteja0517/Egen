@@ -1,0 +1,42 @@
+
+h1{ 
+color:white;
+font-size:200%;
+font-style:italic;
+}
+p {
+  color:white;
+  font-style:italic;
+  font-size:20px;
+  text-align:left;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    }
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    padding: 8px;
+    background-color: black;
+    color: white;
+}
+div {
+  border: 10px;
+  padding:10px;
+}
+#b1 { background-image:url(https://iso.500px.com/wp-content/uploads/2014/12/blackandwhite.jpg); }
+#b2 { background-image:url(http://theartmad.com/wp-content/uploads/2015/07/Very-Good-Nature-Wallpapers-6.jpg); }
+#b3 { background-image:url(https://cdn2.pcadvisor.co.uk/cmsdata/features/3633585/mobile_phone_audio_gt_1.jpg); }
+#b4 { background-image:url(http://cdn.sandiegouniontrib.com/static/utsd/v1/images/bestof/sd-best/2015/header-3.jpg); }
+#b5 { background-image:url(http://www.pageresource.com/wallpapers/wallpaper/best-birds.jpg); }
+#b6 { background-image:url(http://i.cdn.cnn.com/cnn/.e/img/3.0/branding/backgrounds/baselworld/baselworld-background-super.jpg); }
+#b7 { background-image:url(http://s3.amazonaws.com/digitaltrends-uploads-prod/2014/11/Entry-DSLR.jpg); }
+#b8 { background-image:url(http://www.pixelstalk.net/wp-content/uploads/2016/08/Best-ever-desktop-wallpaper.jpg); }

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="signup.css">
+
+  
+
+<body >
+ <div id="wrapper"></div>
+  <header>
+    <h1>AR Photography</h1>
+
+    <ul>
+
+     <li><a rel="external" href="Contact.html">Contact us</a></li>
+      <li><a rel="external" href="Gallery.html">Gallery</a></li>
+      <li><a rel="external" href="SignIn.html">LogIn</a></li>
+      <li><a rel="external" href="index.html">Home</a></li>
+     
+    </ul>
+  </header>
+  </div>
+  <div class="round-button"><div class="round-button-circle"><a href="index.html" class="round-button">Back</a></div></div>
+<div ng-app="arapp" ng-controller="arcontroller" class="form">
+
+            <form id="contactform" >
+
+                <p class="contact"><label for="name"><font color="white">Name</font></label></p>
+
+                <input id="name" ng-model="fullName" placeholder="First and last name" required="" tabindex="1" type="text">
+
+ 
+
+                <p class="contact"><label for="email"><font color="white">Email</font></label></p>
+
+                <input id="email" ng-model="email" name="email" placeholder="example@domain.com" required="" type="email">
+
+ 
+
+                <p class="contact"><label for="username"><font color="white">Create a username</font></label></p>
+
+                <input id="username" ng-model="uname" name="username" placeholder="username" required="" tabindex="2" type="text">
+
+ 
+
+                <p class="contact"><label for="password"><font color="white">Create a password</font></label></p>
+
+                <input type="password" ng-model="pwd" id="password" name="password" required="" type="text">
+
+                <p class="contact"><label for="repassword"><font color="white">Confirm your password</font></label></p>
+
+                <input type="password" id="password" name="password" required="" type="text">
+ 
+
+               <fieldset>
+
+                 <label><font color="white">Birthday</font></label>
+
+                  <label class="month">
+
+                  <select class="select-style" name="BirthMonth">
+
+                  <option value="">Month</option>
+
+                  <option  value="01">January</option>
+
+                  <option value="02">February</option>
+
+                  <option value="03" >March</option>
+
+                  <option value="04">April</option>
+
+                  <option value="05">May</option>
+                  <option value="06">June</option>
+
+                  <option value="07">July</option>
+
+                  <option value="08">August</option>
+
+                  <option value="09">September</option>
+
+                  <option value="10">October</option>
+
+                  <option value="11">November</option>
+
+                  <option value="12" >December</option>
+
+                  </label>
+
+
+                 </select>   
+
+                <label><font color="white">Day</font><input class="birthday" maxlength="2" name="BirthDay"  placeholder="Day" required=""></label>
+
+                <label><font color="white">Year</font> <input class="birthyear" maxlength="4" name="BirthYear" placeholder="Year" required=""></label>
+
+              </fieldset>
+
+ 
+
+            <select class="select-style gender" name="gender">
+
+            <option value="select">i am..</option>
+
+            <option value="m">Male</option>
+
+            <option value="f">Female</option>
+
+            <option value="others">Other</option>
+
+            </select><br><br>
+
+ 
+
+            <p class="contact"><label for="phone"><font color="white">Mobile phone</font></label></p>
+
+            <input id="phone" name="phone" placeholder="phone number" required="" type="text"> <br>
+
+            <button class="btn" ng-click="register()" name="submit" id="submit"  tabindex="5" value="Sign me up!" type="submit">Sign me up!</button>   
+   <button type="button" class="cancelbtn" onclick="Redirect();"> Cancel</button>
+   
+   </form>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.8/angular-route.js"></script>
+<script src="register.js"></script>
+
+</body>
+</html>
